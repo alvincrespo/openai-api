@@ -117,5 +117,7 @@ response = client.responses.create(
   input=input_list
 )
 
+print(input_list)
+
 print(response.output_text)
 # -----------------------------------------------------------------------------------------------------------
